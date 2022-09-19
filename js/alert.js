@@ -22,16 +22,19 @@
 // const markBMI = massMark / heightMark ** 2;
 // console.log( markBMI);
 
-// coding challenge 4
-const tip1 = (15/100) * 50;
-const tip2 =(15/100) * 300;
-const bill1 = 50 ;
-const bill2 = 300;
-const finalValue1 = tip1 + bill1;
-const finalValue2 = tip2 + bill2;
-console.log(bill1, tip1, finalValue1)
-console.log(bill2, tip2, finalValue2)
+// coding challenge 4(conditional operator)
+// const tip1 = (15/100) * 50;
+// const tip2 =(15/100) * 300;
+// const bill1 = 50 ;
+// const bill2 = 300;
+// const finalValue1 = tip1 + bill1;
+// const finalValue2 = tip2 + bill2;
+// console.log(bill1, tip1, finalValue1)
+// console.log(bill2, tip2, finalValue2)
 
-
-
+// soln
+// test data : 275, 40 and 430
+const bill = 275;
+const tip = (bill <= 300) && (bill >= 50 ) ? bill * 0.15 : bill * 0.2;
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
 
