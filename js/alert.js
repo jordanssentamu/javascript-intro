@@ -101,8 +101,16 @@
 
 //  The WHILE LOOP- IT HAS A SYNTAX OF "WHILE (CONDITION) {BODY}"
 // Example
-let j = 0;
-while (j < 3) {
-    console.log (j)
-    j++
-}
+// let j = 0;
+// while (j < 3) {
+//     console.log (j)
+//     j++
+// }
+
+// DO -- WHILE LOOP - HERE THE BODY OR STATEMENT COMES BEFORE THRE CONDITION
+// FOR EXAMPLE
+let i = 10;
+do {
+   console.log(i)
+  i-- 
+} while (i > 0 );
