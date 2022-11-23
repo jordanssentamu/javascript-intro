@@ -79,21 +79,30 @@
 //     console.log (`both equal`);
 // }
 // Test-2
-const markMass = 95;
-const markHeight = 1.88;
-const johnMass = 85;
-const johnHeight = 1.76;
-const markBMI = markMass /  (markHeight ** 2);
-const johnBMI = johnMass / (johnHeight ** 2);
-console.log (markBMI);
- console.log(johnBMI); 
-const markHigherBMI = markBMI;
-const johnHigherBMI = johnBMI;
-if (markHigherBMI > johnHigherBMI) {
-    console.log(`Mark's BMI is greater that of John's`);
-}else if (johnHigherBMI > markHigherBMI) {
-    console.log(`John's BMI is greater that of Mark's`);
+// const markMass = 95;
+// const markHeight = 1.88;
+// const johnMass = 85;
+// const johnHeight = 1.76;
+// const markBMI = markMass /  (markHeight ** 2);
+// const johnBMI = johnMass / (johnHeight ** 2);
+// console.log (markBMI);
+//  console.log(johnBMI); 
+// const markHigherBMI = markBMI;
+// const johnHigherBMI = johnBMI;
+// if (markHigherBMI > johnHigherBMI) {
+//     console.log(`Mark's BMI is greater that of John's`);
+// }else if (johnHigherBMI > markHigherBMI) {
+//     console.log(`John's BMI is greater that of Mark's`);
 
-} else {
-    console.log (`both are equal`);
+// } else {
+//     console.log (`both are equal`);
+// }
+ // lOOPS
+
+//  The WHILE LOOP- IT HAS A SYNTAX OF "WHILE (CONDITION) {BODY}"
+// Example
+let j = 0;
+while (j < 3) {
+    console.log (j)
+    j++
 }
