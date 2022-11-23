@@ -123,7 +123,19 @@
 // → (if condition → run body and run step)
 // → (if condition → run body and run step)
 // → ...
-for (let k = 0; k < 10; k++) {
-    console.log(k);
+// for (let k = 0; k < 10; k++) {
+//     console.log(k)
 
+// }
+
+
+// BREAKING THE LOOP-loops normally exit whe its condition becomes falsy, but we can force its exit at any time.
+//  using the key word break
+// for example:
+let sum = 0;
+while (true) {
+    let value = +prompt("Enter a number",  '');
+    if (!value) break;
+    sum += value;
 }
+alert ('sum: ' + sum);
