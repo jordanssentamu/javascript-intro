@@ -132,10 +132,18 @@
 // BREAKING THE LOOP-loops normally exit whe its condition becomes falsy, but we can force its exit at any time.
 //  using the key word break
 // for example:
-let sum = 0;
-while (true) {
-    let value = +prompt("Enter a number",  '');
-    if (!value) break;
-    sum += value;
+// let sum = 0;
+// while (true) {
+//     let value = +prompt("Enter a number",  '');
+//     if (!value) break;
+//     sum += value;
+// }
+// alert ('sum: ' + sum);
+
+
+// CONTINUE TO THE NEXT ITERATION-The continue directive is a “lighter version” of break. It doesn’t stop the whole loop. Instead, it stops the current iteration and forces the loop to start a new one (if the condition allows).
+// FOR EXAMPLE
+for (i = 0; i < 10; i++) {
+    if (i % 2 == 0) continue;
+    console.log(i);
 }
-alert ('sum: ' + sum);
