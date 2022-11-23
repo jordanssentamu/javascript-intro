@@ -109,8 +109,21 @@
 
 // DO -- WHILE LOOP - HERE THE BODY OR STATEMENT COMES BEFORE THRE CONDITION
 // FOR EXAMPLE
-let i = 10;
-do {
-   console.log(i)
-  i-- 
-} while (i > 0 );
+// let i = 10;
+// do {
+//    console.log(i)
+//   i-- 
+// } while (i > 0 );
+
+
+// THE FOR LOOP- THIS IS MORE COMPLEX, BUT ITS ALSO THE MOST COMMONLY USED.
+// IT SYNTAX- FOR (BEGIN; CONDITION; STEP) {BODY/STATEMENT }
+// // Run begin
+// → (if condition → run body and run step)
+// → (if condition → run body and run step)
+// → (if condition → run body and run step)
+// → ...
+for (let k = 0; k < 10; k++) {
+    console.log(k);
+
+}
